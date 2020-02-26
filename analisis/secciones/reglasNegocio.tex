@@ -1,0 +1,276 @@
+\section{Reglas de Negocio}
+\begin{BussinesRule}{BR1}{}
+    \BRitem[Tipo:]
+    \BRitem[Clase:]
+    \BRitem[Nivel:]
+    \BRitem[Descripción:]Para la creación del formulario  al menos debe existir un requisito.
+    
+\end{BussinesRule}
+%----------------------------------BR --------------------------------------%
+\begin{BussinesRule}{BR2}{}
+    \BRitem[Tipo:]
+    \BRitem[Clase:]
+    \BRitem[Nivel:]
+    \BRitem[Descripción:]Un requisito deberá conformarse de nombre y tipo de dato.
+    
+\end{BussinesRule}
+%----------------------------------BR --------------------------------------%
+\begin{BussinesRule}{BR3}{}
+    \BRitem[Tipo:]
+    \BRitem[Clase:]
+    \BRitem[Nivel:]
+    \BRitem[Descripción:]El nombre del tipo de dato es alfanumérico.
+    
+\end{BussinesRule}
+%----------------------------------BR --------------------------------------%
+\begin{BussinesRule}{BR4}{}
+    \BRitem[Tipo:]
+    \BRitem[Clase:]
+    \BRitem[Nivel:]
+    \BRitem[Descripción:]Los tipos de datos que se podrán introducir serán campo, archivo, de selección y fecha. 
+    
+\end{BussinesRule}
+%----------------------------------BR --------------------------------------%
+\begin{BussinesRule}{BR5}{}
+    \BRitem[Tipo:]
+    \BRitem[Clase:]
+    \BRitem[Nivel:]
+    \BRitem[Descripción:]El tipo de dato campo solo podrá ser de texto y número
+    
+\end{BussinesRule}
+%----------------------------------BR --------------------------------------%
+\begin{BussinesRule}{BR6}{}
+    \BRitem[Tipo:]
+    \BRitem[Clase:]
+    \BRitem[Nivel:]
+    \BRitem[Descripción:]El tipo de dato archivo solo podrá ser una imagen con extensión png y jpg, o  pdf.
+    
+\end{BussinesRule}
+%----------------------------------BR --------------------------------------%
+\begin{BussinesRule}{BR7}{}
+    \BRitem[Tipo:]
+    \BRitem[Clase:]
+    \BRitem[Nivel:]
+    \BRitem[Descripción:]El tipo de dato de selección podrá ser con opción única o múltiple.
+    
+\end{BussinesRule}
+%----------------------------------BR --------------------------------------%
+\begin{BussinesRule}{BR8}{}
+    \BRitem[Tipo:]
+    \BRitem[Clase:]
+    \BRitem[Nivel:]
+    \BRitem[Descripción:]En el tipo de dato de fecha se deberá seleccionar el rango de tiempo.
+    
+\end{BussinesRule}
+%----------------------------------BR --------------------------------------%
+\begin{BussinesRule}{BR9}{}
+    \BRitem[Tipo:]
+    \BRitem[Clase:]
+    \BRitem[Nivel:]
+    \BRitem[Descripción:]Creado el requisito, toda las caracteristicas  se podrán editar a excepción del tipo de dato.
+    
+\end{BussinesRule}
+%----------------------------------BR --------------------------------------%
+\begin{BussinesRule}{BR10}{}
+    \BRitem[Tipo:]
+    \BRitem[Clase:]
+    \BRitem[Nivel:]
+    \BRitem[Descripción:]Un requisito tendrá la opción de ser obligatorio o no.
+    
+\end{BussinesRule}
+%----------------------------------BR --------------------------------------%
+\begin{BussinesRule}{BR11}{}
+    \BRitem[Tipo:]
+    \BRitem[Clase:]
+    \BRitem[Nivel:]
+    \BRitem[Descripción:]En la vista previa del formulario,  se podrá verificar mediante el botón finalizar. ????
+    
+\end{BussinesRule}
+%----------------------------------BR --------------------------------------%
+\begin{BussinesRule}{BR12}{}
+    \BRitem[Tipo:]
+    \BRitem[Clase:]
+    \BRitem[Nivel:]
+    \BRitem[Descripción:]En caso de recibir una validación aprobatoria, se deberá esperar a la siguiente etapa del proceso.
+    
+\end{BussinesRule}
+%----------------------------------BR --------------------------------------%
+\begin{BussinesRule}{BR13}{}
+    \BRitem[Tipo:]
+    \BRitem[Clase:]
+    \BRitem[Nivel:]
+    \BRitem[Descripción:]En caso de recibir una validación desaprobada, solo se habilitara el requisito a modificar y la opción de volver a enviar formulario.
+    
+\end{BussinesRule}
+%----------------------------------BR --------------------------------------%
+\begin{BussinesRule}{BR14}{}
+    \BRitem[Tipo:]
+    \BRitem[Clase:]
+    \BRitem[Nivel:]
+    \BRitem[Descripción:]La revisión para validación de un alumno solo se hará por un adminitsrador  de la institución a la vez.
+    
+\end{BussinesRule}
+%----------------------------------BR --------------------------------------%
+\begin{BussinesRule}{BR15}{}
+    \BRitem[Tipo:]
+    \BRitem[Clase:]
+    \BRitem[Nivel:]
+    \BRitem[Descripción:]La pantalla de visualizar alumnos contendrá una tabla con nombre(s) del alumno, status de validación y acciones.
+    
+\end{BussinesRule}
+%----------------------------------BR --------------------------------------%
+\begin{BussinesRule}{BR16}{}
+    \BRitem[Tipo:]
+    \BRitem[Clase:]
+    \BRitem[Nivel:]
+    \BRitem[Descripción:]En caso de que todos los requisitos estén completos y validados, se enviara la notificación a alumno de esto, al igual que si no están validados, se mandara la notificación de que requisito(s) corregir, anexando el comentario del error. 
+    
+\end{BussinesRule}
+%----------------------------------BR --------------------------------------%
+\begin{BussinesRule}{BR17}{}
+    \BRitem[Tipo:]
+    \BRitem[Clase:]
+    \BRitem[Nivel:]
+    \BRitem[Descripción:]
+    
+\end{BussinesRule}
+%----------------------------------BR --------------------------------------%
+\begin{BussinesRule}{BR18}{}
+    \BRitem[Tipo:]
+    \BRitem[Clase:]
+    \BRitem[Nivel:]
+    \BRitem[Descripción:]
+    
+\end{BussinesRule}
+%----------------------------------BR --------------------------------------%
+\begin{BussinesRule}{BR19}{Máquina de Estados de una Tarea.}
+    \BRitem[Tipo:] Flujo.
+    \BRitem[Clase:] Habilitadora.
+    \BRitem[Nivel:] Control.
+    \BRitem[Descripción:] Según el estado de la Tarea son los permisos de quien puede modificar la información relacionada con esta.
+     Tener un mayor control sobre la información.
+    \BRitem[Ejemplo Positivo:] La Tarea de registrar Mapa Curricular se aprobó después de que el analista y el jefe la revisaran.
+    \BRitem[Ejemplo Negativo:] La Tarea de registrar Unidad de Aprendizaje se empezó a revisar antes de que terminara su registro.
+\end{BussinesRule}
+%----------------------------------BR --------------------------------------%
+\begin{BussinesRule}{BR20}{Aprobación de Tareas.}
+    \BRitem[Tipo:] Flujo.
+    \BRitem[Clase:] Habilitadora.
+    \BRitem[Nivel:] Control.
+    \BRitem[Descripción:] Una Tarea es aprobada si al terminar de revisar no contiene comentarios.
+     Poder saber cuando una tarea a finalizado.
+    \BRitem[Ejemplo Positivo:] El Jefe de Innovación Educativa no agrego comentarios por lo que se aprueba.
+    \BRitem[Ejemplo Negativo:] El Jefe de Innovación Educativa agrega comentario y aun así se aprueba el documento.
+\end{BussinesRule}
+%----------------------------------BR --------------------------------------%
+\begin{BussinesRule}{BR21}{Aprobación de Tareas Seccionada.}
+    \BRitem[Tipo:] Condición.
+    \BRitem[Clase:] Habilitadora.
+    \BRitem[Nivel:] Control.
+    \BRitem[Descripción:]
+    \BRitem[Sentencia:] Una tarea puede ser aprobada parcialmente y las secciones aprobadas no pueden ser modificadas.
+     Evitar modificaciones en una sección ya aprobada.
+    \BRitem[Ejemplo Positivo:] Una sección ya ha sido aprobada y no se hacen modificaciones.
+    \BRitem[Ejemplo Negativo:] Una sección es aprobada y fue modificada.
+\end{BussinesRule}
+%----------------------------------BR --------------------------------------%
+\begin{BussinesRule}{BR22}{Rechazo de Tareas.}
+    \BRitem[Tipo:] Flujo.
+    \BRitem[Clase:] Habilitadora.
+    \BRitem[Nivel:] Control.
+    \BRitem[Descripción:] Una Tarea es rechazada si al terminar de revisar contiene comentarios.
+     Poder saber cuando una tarea debe volver al estado de Registro.
+    \BRitem[Ejemplo Positivo:] El Jefe de Innovación Educativa agrego comentarios por lo que se rechaza.
+    \BRitem[Ejemplo Negativo:] Ni el Jefe de Innovación Educativa ni el Analista agregaron comentarios y aun así se aprobó.
+\end{BussinesRule}
+%----------------------------------BR --------------------------------------%
+\begin{BussinesRule}{BR23}{Tiempos de entregas.}
+    \BRitem[Tipo:] Integridad.
+    \BRitem[Clase:] Cronometrado.
+    \BRitem[Nivel:] Control.
+    \BRitem[Descripción:] Una tarea debe entregarse en la fecha indicada por el jefe de desarrollo e innovación curricular.
+     Se tiene un control en las entregas de tareas.
+    \BRitem[Ejemplo Positivo:] Una propuesta de unidad de aprendizaje puede ser revisada por un analista solo en el tiempo establecido.
+    \BRitem[Ejemplo Negativo:] Una propuesta de unidad de aprendizaje puede ser revisada por un analista en cualquier momento.
+\end{BussinesRule}
+%----------------------------------BR --------------------------------------%
+\begin{BussinesRule}{BR24}{Todos los datos solicitados son obligatorios.}
+    \BRitem[Tipo:] Regla de Operación.
+    \BRitem[Clase:] Habilitadora.
+    \BRitem[Nivel:] Control.
+    \BRitem[Descripción:] Los campos solicitados, no se pueden ser dejados en blanco.
+    \BRitem[Sentencia:]
+    \BRitem[Motivación: ]Que la base de datos esté siempre en un estado consistente.
+    \BRitem[Ejemplo Positivo:] El usuario ingresa todos los datos solicitados y prosigue con su operación.
+    \BRitem[Ejemplo Negativo: ]El usuario deja campos vacios y el sistema le permite continuar.
+\end{BussinesRule}
+%----------------------------------BR --------------------------------------%
+\begin{BussinesRule}{BR25}{El correo electrónico del empleado es único.}
+    \BRitem[Tipo: ]Relación.
+    \BRitem[Clase: ]Habilitadora.
+    \BRitem[Nivel: ]Control.
+    \BRitem[Descripción:] Cada una de las cuentas de los empleados registrados en el sistema cuentan con un correo electrónico único.
+    \BRitem[Motivación: ]Poder identificar a los usuarios.
+    \BRitem[Ejemplo Positivo:] El Empleado Juan Perez tiene una correo electrónico juanp@ipn.mx  y el empleado Armando López Doriga tiene un correo electrónico armlop@ipn.mx.
+    \BRitem[Ejemplo Negativo:] El Empleado Juan Perez tiene una correo electrónico juanp@ipn.mx  y el empleado Armando López Doriga tiene un correo electrónico juanp@ipn.mx.
+\end{BussinesRule}
+%----------------------------------BR --------------------------------------%
+
+\begin{BussinesRule}{BR26}{Debe existir al menos un criterio de evaluación para una Unidad de Aprendizaje.}
+    \BRitem[Tipo:] Regla de integridad estructural.
+    \BRitem[Clase:] Habilitadora.
+    \BRitem[Nivel:] Control.
+    \BRitem[Descripción:] Para cada Unidad de Aprendizaje debe existir al menos un criterio de evaluación cuyo porcentaje asociado sería de 100\%, sin embargo, puede tener tantos criterios como el docente decida.
+     Que el docente que imparta dicha Unidad de Aprendizaje tenga al menos un referente para evaluar a sus alumnos.
+    \BRitem[Ejemplo positivo:] La Unidad de Aprendizaje ``Ingeniería de Sofware'' tiene como único criterio de evaluación el desarrollo de un proyecto cuyo porcentaje equivale al 100\% de la calificación del alumno.
+\end{BussinesRule}
+%----------------------------------BR --------------------------------------%
+\begin{BussinesRule}{BR27}{La suma de los porcentajes de cada evaluación debe ser igual a 100\%.}
+    \BRitem[Tipo:] Regla de operación.
+    \BRitem[Clase:] Habilitadora.
+    \BRitem[Nivel:] Control.
+    \BRitem[Descripción:] La suma total de los porcentajes de cada evaluación registrada por el docente, debe ser exactamente igual al 100\%.
+     Que exista coherencia al momento de evaluar y que el alumno pueda identificar de dónde proviene su calificación.
+    \BRitem[Ejemplo positivo:] Las evaluaciones registradas para la Unidad de Aprendizaje ``Ingeniería de Software'' son:
+        \begin{itemize}
+            \item 20\% Examen oral.
+            \item 20\% Tareas.
+            \item 60\% Proyecto final.
+        \end{itemize}
+        En total, los porcentajes suman el 100\% de la calificación del alumno.
+\end{BussinesRule}
+%----------------------------------BR --------------------------------------%
+   \begin{BussinesRule}{BR28}{Dirección web del sistema.}
+     \BRitem[Tipo:] Flujo.
+     \BRitem[Clase:] Habilitadora.
+     \BRitem[Nivel:] Control.
+     \BRitem[Descripción:] La dirección web a la cual tendrán que ingresar los usuarios en su navegador para acceder al sistema es la siguiente: \url{https://sgae-escom.firebaseapp.com/#/}
+      Informar a los usuarios cómo acceder al sistema una vez puesto en línea.
+  \end{BussinesRule}
+ %----------------------------------BR --------------------------------------%
+   \begin{BussinesRule}{BR29}{Verificación de formularios al momento.}
+     \BRitem[Tipo:]  Estímulo y respuesta.
+     \BRitem[Clase:] Habilitadora.
+     \BRitem[Nivel:] Control.
+     \BRitem[Descripción:] El sistema realiza las verificaciones conforme al Modelo de Datos mientras el Usuario ingresa los datos.
+      Evitar inconsistencias en los datos.
+  \end{BussinesRule}
+  %----------------------------------BR --------------------------------------%
+\begin{BussinesRule}{BR30}{Todos los campos marcados con (*) son obligatorios.}
+    \BRitem[Tipo:] Regla de Operación.
+    \BRitem[Clase:] Habilitadora.
+    \BRitem[Nivel:] Control.
+    \BRitem[Descripción:] Los campos marcados con un (*), no se pueden ser dejados en blanco.
+    \BRitem[Sentencia:]
+    \BRitem[Ejemplo Positivo:] El usuario ingresa los campos obligatorios y prosigue con su operación.
+    \BRitem[Ejemplo Negativo: ]El usuario deja campos obligatorios vacíos y el sistema le permite continuar.
+\end{BussinesRule}
+%----------------------------------BR --------------------------------------%
+\begin{BussinesRule}{BR41}{Solo puede haber un plan de estudios en estado de creación, rediseño y aprobado.}
+    \BRitem[Tipo:] Flujo.
+    \BRitem[Clase:] Habilitadora.
+    \BRitem[Nivel:] Control.
+    \BRitem[Descripción:] El usuario solo puede existir un plan de estudios en estado de creación, rediseño y aprobado.
+     Evitar la creación de un Plan de Estudio sin la aprobación.
+\end{BussinesRule}
+\pagebreak

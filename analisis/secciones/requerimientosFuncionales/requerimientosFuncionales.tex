@@ -1,0 +1,43 @@
+\section{Requerimientos Funcionales}
+
+% -------------- TABLA PARA REQUERIMIENTOS FUNCIONALES ---------------- % 
+% Nomenclatura para la prioridad: 
+%	A - Alta
+%	M - Media
+%	B - Baja
+\begin{table}[htbp!]
+	\begin{requerimientos}
+		\FRitem{RF}{Vista preliminar}{El sistema debe permitir la visualización previa del llenado de los requisitos con el fin de mejorar y agilizar la supervisión de los mismos}{A}{Origen}
+		\FRitem{RF}{Guardado de la información}{El sistema debe permitir el guardado total o parcial de los requisitos }{A}{Origen}
+		%\FRitem{RF}{Exportación de documentos}{El sistema debe permitir la descarga de los documentos en formato PDF con el fin de preservar la información}{A}{Origen}
+		\FRitem{RF}{Notificaciones}{El sistema debe generar notificaciones sobre el estado actual del los requisitos}{A}{Origen}
+		\FRitem{RU}{Registro de Requisito}{El usuario Aspirante requiere un mecanismo a través del cual pueda hacer el registro de los datos solicitados }{x}{Usuario}
+		\FRitem{RU}{Modificación de Requisitos}{El usuario Aspirante requiere un mecanismo que le permita hacer modificaciones a los requisitos en caso de que estos tengan que ajustarse}{x}{Usuario}
+		\FRitem{RU}{Modificación de formulario de  Requisitos}{El usuario Administrador requiere un mecanismo que le permita hacer modificaciones al formulario de requisitos en caso de que estos tengan que ajustarse}{x}{Usuario}%BR el Administrador solo puede editar el FR hasta que sea periodo de este.
+		\FRitem{RU}{Guardado de la información}{El usuario aspirante requiere un mecanismo que le permita guardar el estado actual de los requisitos con la finalidad de que pueda continuar su labor hasta que ésta sea finalizada}{x}{Usuario}
+		\FRitem{RU}{Aprobación de requisitos}{El usuario Administrador requiere un mecanismo que le permita aprobar los documentos cuando éstos hayan sido enviados y estén correctos}{x}{Usuario}
+	\end{requerimientos}
+    \caption{Requerimientos funcionales del sistema para la creación de requisitos}
+    \label{tb1:RFD}
+\end{table}
+\pagebreak
+\begin{table}[htbp!]
+	\begin{requerimientos}
+		%\FRitem{RS}{Guardar Aprobación de requisitos}{El Sistema requiere un mecanismo que le permita guardar el avance de las validaciones de requisitos de aspirantes hasta que este finalice.}{x}{Usuario}
+		\FRitem{RU}{Notificaciones}{El usuario  requiere un mecanismo que le permita ser notificado acerca del estado actual de los requisitos}{x}{Usuario}
+		\FRitem{RF}{Enviar Comentarios}{El sistema debe permitirle al Usuario Administrador enviar comentarios de corrección de requisitos }{x}{Usuario}
+		\FRitem{RF}{Visualizar Comentarios}{El sistema debe permitirle al Usuario visualizar comentarios de corrección de requisitos }{x}{Usuario}
+		\FRitem{RF}{Eliminar requisitos}{El sistema debe permitirle al Usuario Administrador eliminar los requisitos registrados}{x}{Usuario}
+    	\FRitem{RU}{Creación de Formulario de Requisitos}{El usuario Administrador requiere un mecanismo a través del cual pueda crear de un requisito }{x}{Usuario}
+    	\FRitem{RF}{Visualizar prueba de requisitos}{El sistema debe permitirle al Usuario Administrador visualizar la prueba de formulario para aspirante (requisitos) }{x}{Origen}
+    	\FRitem{RF}{Visualizar validaciones}{El sistema debe permitirle al Usuario Administrador visualizar las validaciones de los aspirante (requisitos) }{x}{Origen}
+    	\FRitem{RF}{Visualizar estado de validaciones}{El sistema debe permitirle al Usuario Administrador visualizar el estado de cada una de las validaciones de los aspirante (requisitos) }{x}{Origen}
+    	\FRitem{RF}{Buscar validaciones}{El sistema debe permitirle al Usuario Administrador filtrar las validaciones de los aspirante (requisitos) }{x}{Origen}
+		\FRitem{RF}{Validar Aspirantes}{El sistema debe permitirle al Usuario Administrador validar los requisitos de cada aspirante. }{x}{Origen}
+	\end{requerimientos}
+    \caption{Requerimientos funcionales del sistema para la creación de requisitos}
+    \label{tb4:RFD}
+\end{table}
+\pagebreak
+
+

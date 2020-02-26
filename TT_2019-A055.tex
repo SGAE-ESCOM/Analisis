@@ -1,0 +1,61 @@
+%%%%%%   TIPO DE DOCUMEN%TO: Reporte   %%%%%%
+\documentclass[letterpaper,11pt]{report}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%   PAQUETES   %%%%%%%
+\usepackage{documento}
+\usepackage{procesos}
+\usepackage{requerimientos}
+\usepackage[spanish]{babel}
+\usepackage{graphicx}
+\usepackage[utf8]{inputenc}
+\usepackage{libertine}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%   INICIO DEL DOCUMENTO   %%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{document}
+
+    %%%%%%% Renombrar en espaNol %%%%%%
+    \renewcommand{\tablename}{Tabla} %Escribe Tabla en lugar de Cuadro
+    \renewcommand{\listtablename}{\'Indice de tablas} %Escribe Indeice de tablas en lugar de Indice de cuadros
+
+    %%%%%%%   PORTADA   y RESUMEN   %%%%%%% Este es el contenido agregado de la secci\'on 2.
+
+    \include{portada} %incluye el archivo portada.tex
+    \include{resumen} %Incluir resumen del documento (resumen.tex)
+
+    %%%%%%%   INCLUIR ENCABEZADOS EN INDICES Y CAPITULOS   %%%%%%%
+    \pagestyle{headings}
+
+    %%%%%%%   NUMERACIÓN EN CONTENIDO E ÍNDICE DE TABLAS Y FIGURAS   %%%%%%%
+    \pagenumbering{roman} %NUmeros romanos
+    %\setcounter{page}{1} %Comienza en I por default, aquI se puedo modificar
+
+    %%%%%%   INCLUIR CONTENIDO, INDICE DE FIGURAS E INDICE DE TABLAS   %%%%%%
+    %\tableofcontents
+    \tableofcontents
+    \listoffigures
+    \listoftables
+
+    %%%%%%%   NUMERACION EN CAPITULOS   %%%%%%%
+   % \clearpage %Para iniciar con los arAbigos
+    \pagenumbering{arabic} %Numeros arabigos
+    %\setcounter{page}{1} %Comienza en 1 por default, aquI se puede modificar
+
+    %%%%%%%   INCLUYE CAPITULOS Y SECCIONES   %%%%%%%
+        
+        
+        \input{./introduccion/introduccion}
+        \input{./marcoTeorico/marcoTeorico}
+        \input{./analisis/analisis}
+        \input{./diseno/diseno}
+        \input{./diseno/secciones/diagramaComponentes}
+        \input{./desarrollo/desarrollo}
+        \input{./pruebas/pruebas}
+        
+
+\end{document}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%    FIN DEL DOCUMENTO    %%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%

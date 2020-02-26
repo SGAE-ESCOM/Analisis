@@ -1,0 +1,116 @@
+% MODULO DE DOCUMENTACIÓN (MD) REGISTRAR REQUISISTOS DE DOCUMENTACIÓN
+\begin{UseCase}{MD-CU1}{Registrar Requisitos de Documentación//Información General}{El actor podrá registrar los Requisitos correspondiente a una Convocatoria.} 
+    \UCitem{Versión}{\color{Gray}1.1}
+    \UCitem{Autor}{\color{Gray}López Rivera Aiko Dallane.}
+    \UCitem{Supervisa}{\color{Gray}Cervantes Moreno Christian Andrés.}
+    \UCitem{Actor}{\hyperlink{Docente}{Administrador de la Institución Educativa.}}
+    \UCitem{Propósito}{Servir como marco de referencia para el registro de los demás atributos de la Convocatoria.}
+    \UCitem{Entradas}{Las entradas para el registro de los requisitos serán:
+      \begin{itemize}
+          \item Nombre de requisito
+          \item Tipo de campo
+          \item Subtipo
+          \item Campo requerido o no. 
+          \item Mínimo y/o máximo de caracteres 
+          \item Letras mayúsculas
+          \item Letras minúsculas
+          \item Números
+          \item Espacios
+          \item Expresión regular
+          \item Descripción
+          \item Opciones
+          \item Fecha máxima
+          \item Fecha mínima 
+      \end{itemize}
+    }
+    \UCitem{Origen}{Teclado y Mouse.}
+    \UCitem{Salidas}{
+    	\begin{itemize}
+    		\item Formulario
+        	\item \MSGref{MSG1}{Llena todos los campos requeridos.}
+        	\item \MSGref{MSG2}{Se agrego correctamente}
+	        \item \MSGref{MSG3}{¿Desea eliminar "requisito"?, No se podrá revertir está acción.}
+    		\item \MSGref{MSG4}{Eliminado, El elemento se ha eliminado}
+          	\item  \MSGref{MSG5}{Registro finalizado exitosamente.}
+          	\item  \MSGref{MSG6}{Mensaje de prueba. Se ha guardado la información.}
+          	\item  \MSGref{MSG7}{Mensaje de prueba. El formulario es válido.}
+          	\item  \MSGref{MSG8}{Mensaje de prueba. El formulario no es válido.}
+          	\item  \MSGref{MSG9}{El requisito se actualizo exitosamente.}
+          	\item  \MSGref{MSG10}{Por favor escribe un nombre.}
+            \item  \MSGref{MSG11}{Por favor elige una opción.}
+            \item  \MSGref{MSG12}{Por favor elige un tipo.}
+            \item  \MSGref{MSG13}{Este campo es requerido.}
+          	
+     	\end{itemize}
+    }
+    \UCitem{Destino}{Pantalla.}
+    \UCitem{Precondiciones}{El actor debe definir las etapas y tiempos de cada una.}
+    \UCitem{Postcondiciones}{El Formulario de requisitos queda registrado en el Sistema.}
+    \UCitem{Errores}{}
+     \UCitem{Puntos de extensión}{
+     \begin{itemize}
+        \item\UCref{MD-CU3}: Editar Requisitos
+    \end{itemize}    
+    }
+    \UCitem{Estado}{Revisión.}
+    \UCitem{Observaciones}{}
+\end{UseCase}
+
+%--------------------------- CU TRAYECTORIA PRINCIPAL -------------------------
+\begin{UCtrayectoria}{Principal}
+
+\UCpaso[\UCactor] Presiona el botón \IUbutton{Administrar} de la interfaz de usuario \IUref{DOC}{Documentación}.
+
+\UCpaso Carga la información del Formulario para Creación de Requisito .
+
+\UCpaso Muestra la interfaz de usuario \IUref{ARE}{Administrar requisitos}.
+
+\UCpaso[\UCactor] Define un requisito con sus respectivas características, según la regla de negocio\BRref{BR1}{Todos los campos marcados con (*) son obligatorios}.
+
+\UCpaso[\UCactor] Termina la operación presionando el botón agregar.[Trayectoria A][Trayectoria B].
+
+\UCpaso Muestra una tabla con los requisitos diseñados en el paso anterior.[Trayectoria C].
+
+\UCpaso Muestra una tabla de prueba de formulario para aspirante.
+%Preguntar a rabadán.
+\UCpaso[\UCactor] Ingresa un ejemplo de los requisitos diseñados en el paso 6, el sistema verifica conforme al modelo de datos, la \BRref{BR2}{Verificación de formularios al momento} y la \BRref{BR1}{Todos los campos marcados con (*) son obligatorios}. [Trayectoria D] [Trayectoria E]
+
+\UCpaso[\UCactor] Termina la operación presionando el botón \IUbutton{Finalizar}. [Trayectoria F]
+\UCpaso El sistema muestra el mensaje \MSGref{MSG7}{Mensaje de prueba. El formulario es válido.}
+
+
+\end{UCtrayectoria}
+
+
+
+%------------------------ CU TRAYECTORIA ALTERNARTIVA A -------------------------
+\begin{UCtrayectoriaA}{A}{Uno o más campos obligatorios no fueron contestados.}
+\UCpaso Detecta uno o más campos sin contestar.
+\UCpaso Muestra el mensaje \MSGref{MSG1}{Llena todos los campos requeridos} debajo de los campos que no fueron contestados.
+
+\UCpaso Continua en el paso 4 de la trayectoria principal del \UCref{SP1-CU1}
+\end{UCtrayectoriaA}
+
+%------------------------ CU TRAYECTORIA ALTERNARTIVA E -------------------------
+\begin{UCtrayectoriaA}{E}{El sistema detecta caracteres no válidos conforme al diccionario de datos.}
+	\UCpaso Muestra el mensaje \MSGref{MSG35}{Escribe información válida} debajo del campo que incumplió según el diccionario de datos.
+	\UCpaso Continúa en el paso 4 de la trayectoria principal del \UCref{SP1-CU1}.
+\end{UCtrayectoriaA}
+
+%------------------------ CU TRAYECTORIA ALTERNARTIVA F -------------------------
+\begin{UCtrayectoriaA}{F}{Ocurre un error al momento de persistir los datos.}
+	\UCpaso Muestra el mensaje \MSGref{MSG25}{Servicios no disponibles}.
+	
+	\UCpaso[\UCactor] Cierra el mensaje presionando el botón \IUbutton{Aceptar}.
+	
+	\UCpaso Muestra la interfaz de usuario \IUref{RPS}{Registrar Programa Sintético}.
+\end{UCtrayectoriaA}
+
+%------------------------ CU TRAYECTORIA ALTERNARTIVA G -------------------------
+\begin{UCtrayectoriaA}{G}{El actor aún no desea finalizar el registro}
+	\UCpaso[\UCactor] Presiona el botón \IUbutton{No}.
+	
+	\UCpaso Cierra el mensaje.
+	
+	\UCpaso Continúa en el paso 10 de la trayectoria principal del \UCref{SP1-CU1}.
+\end{UCtrayectoriaA}
