@@ -48,7 +48,7 @@
 											},
 											"visible": false,
 											"font": "Arial;13;0",
-											"left": -48,
+											"left": -144,
 											"top": -80,
 											"height": 13
 										},
@@ -59,9 +59,9 @@
 												"$ref": "AAAAAAFynHq15n7mhT4="
 											},
 											"font": "Arial;13;1",
-											"left": 749,
+											"left": 701,
 											"top": 558,
-											"width": 1111,
+											"width": 1023,
 											"height": 13,
 											"text": "Documentación"
 										},
@@ -73,7 +73,7 @@
 											},
 											"visible": false,
 											"font": "Arial;13;0",
-											"left": -48,
+											"left": -144,
 											"top": -80,
 											"width": 73.67724609375,
 											"height": 13,
@@ -87,16 +87,16 @@
 											},
 											"visible": false,
 											"font": "Arial;13;0",
-											"left": -48,
+											"left": -144,
 											"top": -80,
 											"height": 13,
 											"horizontalAlignment": 1
 										}
 									],
 									"font": "Arial;13;0",
-									"left": 744,
+									"left": 696,
 									"top": 551,
-									"width": 1121,
+									"width": 1033,
 									"height": 25,
 									"stereotypeLabel": {
 										"$ref": "AAAAAAFynHq15n7n5F8="
@@ -122,9 +122,9 @@
 							],
 							"font": "Arial;13;0",
 							"containerChangeable": true,
-							"left": 744,
+							"left": 696,
 							"top": 536,
-							"width": 1121,
+							"width": 1033,
 							"height": 505,
 							"nameCompartment": {
 								"$ref": "AAAAAAFynHq15n7mhT4="
@@ -158,8 +158,8 @@
 											},
 											"visible": false,
 											"font": "Arial;13;0",
-											"left": 1680,
-											"top": -2296,
+											"left": 1520,
+											"top": -2328,
 											"height": 13
 										},
 										{
@@ -169,9 +169,9 @@
 												"$ref": "AAAAAAFynIRop4B3JhM="
 											},
 											"font": "Arial;13;1",
-											"left": 1517,
-											"top": 622,
-											"width": 319,
+											"left": 1437,
+											"top": 606,
+											"width": 271,
 											"height": 13,
 											"text": "Aspirante"
 										},
@@ -183,8 +183,8 @@
 											},
 											"visible": false,
 											"font": "Arial;13;0",
-											"left": 1680,
-											"top": -2296,
+											"left": 1520,
+											"top": -2328,
 											"width": 128.59716796875,
 											"height": 13,
 											"text": "(from Documentación)"
@@ -197,16 +197,16 @@
 											},
 											"visible": false,
 											"font": "Arial;13;0",
-											"left": 1680,
-											"top": -2296,
+											"left": 1520,
+											"top": -2328,
 											"height": 13,
 											"horizontalAlignment": 1
 										}
 									],
 									"font": "Arial;13;0",
-									"left": 1512,
-									"top": 615,
-									"width": 329,
+									"left": 1432,
+									"top": 599,
+									"width": 281,
 									"height": 25,
 									"stereotypeLabel": {
 										"$ref": "AAAAAAFynIRoqIB4sp8="
@@ -232,9 +232,9 @@
 							],
 							"font": "Arial;13;0",
 							"containerChangeable": true,
-							"left": 1512,
-							"top": 600,
-							"width": 329,
+							"left": 1432,
+							"top": 584,
+							"width": 281,
 							"height": 321,
 							"nameCompartment": {
 								"$ref": "AAAAAAFynIRop4B3JhM="
@@ -268,8 +268,8 @@
 											},
 											"visible": false,
 											"font": "Arial;13;0",
-											"left": 376,
-											"top": -1728,
+											"left": 232,
+											"top": -1760,
 											"height": 13
 										},
 										{
@@ -279,8 +279,8 @@
 												"$ref": "AAAAAAFynIIRI3/SEKA="
 											},
 											"font": "Arial;13;1",
-											"left": 781,
-											"top": 622,
+											"left": 709,
+											"top": 606,
 											"width": 703,
 											"height": 13,
 											"text": "Administrador Documentación"
@@ -293,8 +293,8 @@
 											},
 											"visible": false,
 											"font": "Arial;13;0",
-											"left": 376,
-											"top": -1728,
+											"left": 232,
+											"top": -1760,
 											"width": 128.59716796875,
 											"height": 13,
 											"text": "(from Documentación)"
@@ -307,15 +307,15 @@
 											},
 											"visible": false,
 											"font": "Arial;13;0",
-											"left": 376,
-											"top": -1728,
+											"left": 232,
+											"top": -1760,
 											"height": 13,
 											"horizontalAlignment": 1
 										}
 									],
 									"font": "Arial;13;0",
-									"left": 776,
-									"top": 615,
+									"left": 704,
+									"top": 599,
 									"width": 713,
 									"height": 25,
 									"stereotypeLabel": {
@@ -354,8 +354,8 @@
 							],
 							"font": "Arial;13;0",
 							"containerChangeable": true,
-							"left": 776,
-							"top": 600,
+							"left": 704,
+							"top": 584,
 							"width": 713,
 							"height": 377,
 							"nameCompartment": {
@@ -629,7 +629,7 @@
 											"font": "Arial;13;1",
 											"left": 77,
 											"top": 558,
-											"width": 607,
+											"width": 567,
 											"height": 13,
 											"text": "Gestión de Usuarios"
 										},
@@ -664,7 +664,7 @@
 									"font": "Arial;13;0",
 									"left": 72,
 									"top": 551,
-									"width": 617,
+									"width": 577,
 									"height": 25,
 									"stereotypeLabel": {
 										"$ref": "AAAAAAFynB4dk3zNue0="
@@ -707,7 +707,7 @@
 							"containerChangeable": true,
 							"left": 72,
 							"top": 536,
-							"width": 617,
+							"width": 577,
 							"height": 505,
 							"nameCompartment": {
 								"$ref": "AAAAAAFynB4dk3zMWNA="
@@ -1368,7 +1368,7 @@
 											},
 											"visible": false,
 											"font": "Arial;13;0",
-											"left": -4320,
+											"left": -4336,
 											"top": 1432,
 											"height": 13
 										},
@@ -1379,7 +1379,7 @@
 												"$ref": "AAAAAAFynHFxI33yElg="
 											},
 											"font": "Arial;13;1",
-											"left": 109,
+											"left": 101,
 											"top": 606,
 											"width": 271,
 											"height": 13,
@@ -1393,7 +1393,7 @@
 											},
 											"visible": false,
 											"font": "Arial;13;0",
-											"left": -4320,
+											"left": -4336,
 											"top": 1432,
 											"width": 156.05078125,
 											"height": 13,
@@ -1407,14 +1407,14 @@
 											},
 											"visible": false,
 											"font": "Arial;13;0",
-											"left": -4320,
+											"left": -4336,
 											"top": 1432,
 											"height": 13,
 											"horizontalAlignment": 1
 										}
 									],
 									"font": "Arial;13;0",
-									"left": 104,
+									"left": 96,
 									"top": 599,
 									"width": 281,
 									"height": 25,
@@ -1437,7 +1437,7 @@
 							},
 							"font": "Arial;13;0",
 							"containerChangeable": true,
-							"left": 104,
+							"left": 96,
 							"top": 584,
 							"width": 281,
 							"height": 105,
@@ -1473,7 +1473,7 @@
 											},
 											"visible": false,
 											"font": "Arial;13;0",
-											"left": -128,
+											"left": -160,
 											"top": -184,
 											"height": 13
 										},
@@ -1484,7 +1484,7 @@
 												"$ref": "AAAAAAFynHJuvX5EY/M="
 											},
 											"font": "Arial;13;1",
-											"left": 117,
+											"left": 101,
 											"top": 958,
 											"width": 231,
 											"height": 13,
@@ -1498,7 +1498,7 @@
 											},
 											"visible": false,
 											"font": "Arial;13;0",
-											"left": -128,
+											"left": -160,
 											"top": -184,
 											"width": 156.05078125,
 											"height": 13,
@@ -1512,14 +1512,14 @@
 											},
 											"visible": false,
 											"font": "Arial;13;0",
-											"left": -128,
+											"left": -160,
 											"top": -184,
 											"height": 13,
 											"horizontalAlignment": 1
 										}
 									],
 									"font": "Arial;13;0",
-									"left": 112,
+									"left": 96,
 									"top": 951,
 									"width": 241,
 									"height": 25,
@@ -1542,7 +1542,7 @@
 							},
 							"font": "Arial;13;0",
 							"containerChangeable": true,
-							"left": 112,
+							"left": 96,
 							"top": 936,
 							"width": 241,
 							"height": 73,
@@ -1578,8 +1578,8 @@
 											},
 											"visible": false,
 											"font": "Arial;13;0",
-											"left": 504,
-											"top": -1464,
+											"left": 472,
+											"top": -1496,
 											"height": 13
 										},
 										{
@@ -1589,8 +1589,8 @@
 												"$ref": "AAAAAAFynHNgTn57PjE="
 											},
 											"font": "Arial;13;1",
-											"left": 429,
-											"top": 742,
+											"left": 413,
+											"top": 726,
 											"width": 199,
 											"height": 13,
 											"text": "Editar Aspirante"
@@ -1603,8 +1603,8 @@
 											},
 											"visible": false,
 											"font": "Arial;13;0",
-											"left": 504,
-											"top": -1464,
+											"left": 472,
+											"top": -1496,
 											"width": 156.05078125,
 											"height": 13,
 											"text": "(from Gestión de Usuarios)"
@@ -1617,15 +1617,15 @@
 											},
 											"visible": false,
 											"font": "Arial;13;0",
-											"left": 504,
-											"top": -1464,
+											"left": 472,
+											"top": -1496,
 											"height": 13,
 											"horizontalAlignment": 1
 										}
 									],
 									"font": "Arial;13;0",
-									"left": 424,
-									"top": 735,
+									"left": 408,
+									"top": 719,
 									"width": 209,
 									"height": 25,
 									"stereotypeLabel": {
@@ -1647,8 +1647,8 @@
 							},
 							"font": "Arial;13;0",
 							"containerChangeable": true,
-							"left": 424,
-							"top": 720,
+							"left": 408,
+							"top": 704,
 							"width": 209,
 							"height": 81,
 							"nameCompartment": {
@@ -1683,8 +1683,8 @@
 											},
 											"visible": false,
 											"font": "Arial;13;0",
-											"left": -184,
-											"top": 88,
+											"left": -216,
+											"top": 40,
 											"height": 13
 										},
 										{
@@ -1694,8 +1694,8 @@
 												"$ref": "AAAAAAFynHP6zX6ZtbE="
 											},
 											"font": "Arial;13;1",
-											"left": 429,
-											"top": 846,
+											"left": 413,
+											"top": 822,
 											"width": 207,
 											"height": 13,
 											"text": "Aprobar Permisos Administrador"
@@ -1708,8 +1708,8 @@
 											},
 											"visible": false,
 											"font": "Arial;13;0",
-											"left": -184,
-											"top": 88,
+											"left": -216,
+											"top": 40,
 											"width": 156.05078125,
 											"height": 13,
 											"text": "(from Gestión de Usuarios)"
@@ -1722,15 +1722,15 @@
 											},
 											"visible": false,
 											"font": "Arial;13;0",
-											"left": -184,
-											"top": 88,
+											"left": -216,
+											"top": 40,
 											"height": 13,
 											"horizontalAlignment": 1
 										}
 									],
 									"font": "Arial;13;0",
-									"left": 424,
-									"top": 839,
+									"left": 408,
+									"top": 815,
 									"width": 217,
 									"height": 25,
 									"stereotypeLabel": {
@@ -1752,8 +1752,8 @@
 							},
 							"font": "Arial;13;0",
 							"containerChangeable": true,
-							"left": 424,
-							"top": 824,
+							"left": 408,
+							"top": 800,
 							"width": 217,
 							"height": 129,
 							"nameCompartment": {
@@ -1788,8 +1788,8 @@
 											},
 											"visible": false,
 											"font": "Arial;13;0",
-											"left": 888,
-											"top": -1208,
+											"left": 856,
+											"top": -1224,
 											"height": 13
 										},
 										{
@@ -1799,8 +1799,8 @@
 												"$ref": "AAAAAAFynHMuR35hIYw="
 											},
 											"font": "Arial;13;1",
-											"left": 429,
-											"top": 614,
+											"left": 413,
+											"top": 606,
 											"width": 207,
 											"height": 13,
 											"text": "Visualizar Aspirante"
@@ -1813,8 +1813,8 @@
 											},
 											"visible": false,
 											"font": "Arial;13;0",
-											"left": 888,
-											"top": -1208,
+											"left": 856,
+											"top": -1224,
 											"width": 156.05078125,
 											"height": 13,
 											"text": "(from Gestión de Usuarios)"
@@ -1827,15 +1827,15 @@
 											},
 											"visible": false,
 											"font": "Arial;13;0",
-											"left": 888,
-											"top": -1208,
+											"left": 856,
+											"top": -1224,
 											"height": 13,
 											"horizontalAlignment": 1
 										}
 									],
 									"font": "Arial;13;0",
-									"left": 424,
-									"top": 607,
+									"left": 408,
+									"top": 599,
 									"width": 217,
 									"height": 25,
 									"stereotypeLabel": {
@@ -1857,10 +1857,10 @@
 							},
 							"font": "Arial;13;0",
 							"containerChangeable": true,
-							"left": 424,
-							"top": 592,
+							"left": 408,
+							"top": 584,
 							"width": 217,
-							"height": 113,
+							"height": 105,
 							"nameCompartment": {
 								"$ref": "AAAAAAFynHMuR35hIYw="
 							}
@@ -1893,7 +1893,7 @@
 											},
 											"visible": false,
 											"font": "Arial;13;0",
-											"left": -48,
+											"left": -80,
 											"top": -88,
 											"height": 13
 										},
@@ -1904,7 +1904,7 @@
 												"$ref": "AAAAAAFynHIdYn4qW1U="
 											},
 											"font": "Arial;13;1",
-											"left": 117,
+											"left": 101,
 											"top": 846,
 											"width": 255,
 											"height": 13,
@@ -1918,7 +1918,7 @@
 											},
 											"visible": false,
 											"font": "Arial;13;0",
-											"left": -48,
+											"left": -80,
 											"top": -88,
 											"width": 156.05078125,
 											"height": 13,
@@ -1932,14 +1932,14 @@
 											},
 											"visible": false,
 											"font": "Arial;13;0",
-											"left": -48,
+											"left": -80,
 											"top": -88,
 											"height": 13,
 											"horizontalAlignment": 1
 										}
 									],
 									"font": "Arial;13;0",
-									"left": 112,
+									"left": 96,
 									"top": 839,
 									"width": 265,
 									"height": 25,
@@ -1962,7 +1962,7 @@
 							},
 							"font": "Arial;13;0",
 							"containerChangeable": true,
-							"left": 112,
+							"left": 96,
 							"top": 824,
 							"width": 265,
 							"height": 89,
@@ -1998,7 +1998,7 @@
 											},
 											"visible": false,
 											"font": "Arial;13;0",
-											"left": -48,
+											"left": -80,
 											"top": -184,
 											"height": 13
 										},
@@ -2009,7 +2009,7 @@
 												"$ref": "AAAAAAFynHHyL34QjZ8="
 											},
 											"font": "Arial;13;1",
-											"left": 117,
+											"left": 101,
 											"top": 734,
 											"width": 255,
 											"height": 13,
@@ -2023,7 +2023,7 @@
 											},
 											"visible": false,
 											"font": "Arial;13;0",
-											"left": -48,
+											"left": -80,
 											"top": -184,
 											"width": 289.50390625,
 											"height": 13,
@@ -2037,14 +2037,14 @@
 											},
 											"visible": false,
 											"font": "Arial;13;0",
-											"left": -48,
+											"left": -80,
 											"top": -184,
 											"height": 13,
 											"horizontalAlignment": 1
 										}
 									],
 									"font": "Arial;13;0",
-									"left": 112,
+									"left": 96,
 									"top": 727,
 									"width": 265,
 									"height": 25,
@@ -2067,7 +2067,7 @@
 							},
 							"font": "Arial;13;0",
 							"containerChangeable": true,
-							"left": 112,
+							"left": 96,
 							"top": 712,
 							"width": 265,
 							"height": 89,
@@ -2103,8 +2103,8 @@
 											},
 											"visible": false,
 											"font": "Arial;13;0",
-											"left": -48,
-											"top": 792,
+											"left": -192,
+											"top": 760,
 											"height": 13
 										},
 										{
@@ -2114,8 +2114,8 @@
 												"$ref": "AAAAAAFynH31u38WXsE="
 											},
 											"font": "Arial;13;1",
-											"left": 805,
-											"top": 686,
+											"left": 733,
+											"top": 670,
 											"width": 311.8349609375,
 											"height": 13,
 											"text": "Visualizar opciones de Gestión de Documentación"
@@ -2128,8 +2128,8 @@
 											},
 											"visible": false,
 											"font": "Arial;13;0",
-											"left": -48,
-											"top": 792,
+											"left": -192,
+											"top": 760,
 											"width": 212.4052734375,
 											"height": 13,
 											"text": "(from Administrador Documentación)"
@@ -2142,15 +2142,15 @@
 											},
 											"visible": false,
 											"font": "Arial;13;0",
-											"left": -48,
-											"top": 792,
+											"left": -192,
+											"top": 760,
 											"height": 13,
 											"horizontalAlignment": 1
 										}
 									],
 									"font": "Arial;13;0",
-									"left": 800,
-									"top": 679,
+									"left": 728,
+									"top": 663,
 									"width": 321.8349609375,
 									"height": 25,
 									"stereotypeLabel": {
@@ -2172,8 +2172,8 @@
 							},
 							"font": "Arial;13;0",
 							"containerChangeable": true,
-							"left": 800,
-							"top": 664,
+							"left": 728,
+							"top": 648,
 							"width": 321.8349609375,
 							"height": 81,
 							"nameCompartment": {
@@ -2208,8 +2208,8 @@
 											},
 											"visible": false,
 											"font": "Arial;13;0",
-											"left": -88,
-											"top": 728,
+											"left": -232,
+											"top": 696,
 											"height": 13
 										},
 										{
@@ -2219,8 +2219,8 @@
 												"$ref": "AAAAAAFynH6IV38z5DQ="
 											},
 											"font": "Arial;13;1",
-											"left": 805,
-											"top": 782,
+											"left": 733,
+											"top": 766,
 											"width": 311,
 											"height": 13,
 											"text": "Registrar requisitos para Documentación"
@@ -2233,8 +2233,8 @@
 											},
 											"visible": false,
 											"font": "Arial;13;0",
-											"left": -88,
-											"top": 728,
+											"left": -232,
+											"top": 696,
 											"width": 212.4052734375,
 											"height": 13,
 											"text": "(from Administrador Documentación)"
@@ -2247,15 +2247,15 @@
 											},
 											"visible": false,
 											"font": "Arial;13;0",
-											"left": -88,
-											"top": 728,
+											"left": -232,
+											"top": 696,
 											"height": 13,
 											"horizontalAlignment": 1
 										}
 									],
 									"font": "Arial;13;0",
-									"left": 800,
-									"top": 775,
+									"left": 728,
+									"top": 759,
 									"width": 321,
 									"height": 25,
 									"stereotypeLabel": {
@@ -2277,8 +2277,8 @@
 							},
 							"font": "Arial;13;0",
 							"containerChangeable": true,
-							"left": 800,
-							"top": 760,
+							"left": 728,
+							"top": 744,
 							"width": 321,
 							"height": 89,
 							"nameCompartment": {
@@ -2313,8 +2313,8 @@
 											},
 											"visible": false,
 											"font": "Arial;13;0",
-											"left": -224,
-											"top": 536,
+											"left": -368,
+											"top": 504,
 											"height": 13
 										},
 										{
@@ -2324,8 +2324,8 @@
 												"$ref": "AAAAAAFynH83o39TTuY="
 											},
 											"font": "Arial;13;1",
-											"left": 805,
-											"top": 886,
+											"left": 733,
+											"top": 870,
 											"width": 303,
 											"height": 13,
 											"text": "Ordenar Requisitos para Documentación"
@@ -2338,8 +2338,8 @@
 											},
 											"visible": false,
 											"font": "Arial;13;0",
-											"left": -224,
-											"top": 536,
+											"left": -368,
+											"top": 504,
 											"width": 212.4052734375,
 											"height": 13,
 											"text": "(from Administrador Documentación)"
@@ -2352,15 +2352,15 @@
 											},
 											"visible": false,
 											"font": "Arial;13;0",
-											"left": -224,
-											"top": 536,
+											"left": -368,
+											"top": 504,
 											"height": 13,
 											"horizontalAlignment": 1
 										}
 									],
 									"font": "Arial;13;0",
-									"left": 800,
-									"top": 879,
+									"left": 728,
+									"top": 863,
 									"width": 313,
 									"height": 25,
 									"stereotypeLabel": {
@@ -2382,8 +2382,8 @@
 							},
 							"font": "Arial;13;0",
 							"containerChangeable": true,
-							"left": 800,
-							"top": 864,
+							"left": 728,
+							"top": 848,
 							"width": 313,
 							"height": 89,
 							"nameCompartment": {
@@ -2418,8 +2418,8 @@
 											},
 											"visible": false,
 											"font": "Arial;13;0",
-											"left": 256,
-											"top": 40,
+											"left": 112,
+											"top": 8,
 											"height": 13
 										},
 										{
@@ -2429,8 +2429,8 @@
 												"$ref": "AAAAAAFynH/NN39vlQo="
 											},
 											"font": "Arial;13;1",
-											"left": 1149,
-											"top": 686,
+											"left": 1077,
+											"top": 670,
 											"width": 303,
 											"height": 13,
 											"text": "Editar requisitos para Documentación"
@@ -2443,8 +2443,8 @@
 											},
 											"visible": false,
 											"font": "Arial;13;0",
-											"left": 256,
-											"top": 40,
+											"left": 112,
+											"top": 8,
 											"width": 212.4052734375,
 											"height": 13,
 											"text": "(from Administrador Documentación)"
@@ -2457,15 +2457,15 @@
 											},
 											"visible": false,
 											"font": "Arial;13;0",
-											"left": 256,
-											"top": 40,
+											"left": 112,
+											"top": 8,
 											"height": 13,
 											"horizontalAlignment": 1
 										}
 									],
 									"font": "Arial;13;0",
-									"left": 1144,
-									"top": 679,
+									"left": 1072,
+									"top": 663,
 									"width": 313,
 									"height": 25,
 									"stereotypeLabel": {
@@ -2487,8 +2487,8 @@
 							},
 							"font": "Arial;13;0",
 							"containerChangeable": true,
-							"left": 1144,
-							"top": 664,
+							"left": 1072,
+							"top": 648,
 							"width": 313,
 							"height": 81,
 							"nameCompartment": {
@@ -2523,8 +2523,8 @@
 											},
 											"visible": false,
 											"font": "Arial;13;0",
-											"left": -112,
-											"top": 752,
+											"left": -256,
+											"top": 720,
 											"height": 13
 										},
 										{
@@ -2534,8 +2534,8 @@
 												"$ref": "AAAAAAFynIBKt3+MYbY="
 											},
 											"font": "Arial;13;1",
-											"left": 1149,
-											"top": 782,
+											"left": 1077,
+											"top": 766,
 											"width": 303,
 											"height": 13,
 											"text": "Validar Requisitos para Documentación"
@@ -2548,8 +2548,8 @@
 											},
 											"visible": false,
 											"font": "Arial;13;0",
-											"left": -112,
-											"top": 752,
+											"left": -256,
+											"top": 720,
 											"width": 212.4052734375,
 											"height": 13,
 											"text": "(from Administrador Documentación)"
@@ -2562,15 +2562,15 @@
 											},
 											"visible": false,
 											"font": "Arial;13;0",
-											"left": -112,
-											"top": 752,
+											"left": -256,
+											"top": 720,
 											"height": 13,
 											"horizontalAlignment": 1
 										}
 									],
 									"font": "Arial;13;0",
-									"left": 1144,
-									"top": 775,
+									"left": 1072,
+									"top": 759,
 									"width": 313,
 									"height": 25,
 									"stereotypeLabel": {
@@ -2592,8 +2592,8 @@
 							},
 							"font": "Arial;13;0",
 							"containerChangeable": true,
-							"left": 1144,
-							"top": 760,
+							"left": 1072,
+							"top": 744,
 							"width": 313,
 							"height": 97,
 							"nameCompartment": {
@@ -2628,8 +2628,8 @@
 											},
 											"visible": false,
 											"font": "Arial;13;0",
-											"left": -480,
-											"top": 536,
+											"left": -640,
+											"top": 504,
 											"height": 13
 										},
 										{
@@ -2639,8 +2639,8 @@
 												"$ref": "AAAAAAFynICjsH+oEjE="
 											},
 											"font": "Arial;13;1",
-											"left": 1541,
-											"top": 678,
+											"left": 1461,
+											"top": 662,
 											"width": 231.15625,
 											"height": 13,
 											"text": "Subir requisitos para Documentación"
@@ -2653,8 +2653,8 @@
 											},
 											"visible": false,
 											"font": "Arial;13;0",
-											"left": -480,
-											"top": 536,
+											"left": -640,
+											"top": 504,
 											"width": 128.59716796875,
 											"height": 13,
 											"text": "(from Aspirante)"
@@ -2667,15 +2667,15 @@
 											},
 											"visible": false,
 											"font": "Arial;13;0",
-											"left": -480,
-											"top": 536,
+											"left": -640,
+											"top": 504,
 											"height": 13,
 											"horizontalAlignment": 1
 										}
 									],
 									"font": "Arial;13;0",
-									"left": 1536,
-									"top": 671,
+									"left": 1456,
+									"top": 655,
 									"width": 241.15625,
 									"height": 25,
 									"stereotypeLabel": {
@@ -2697,8 +2697,8 @@
 							},
 							"font": "Arial;13;0",
 							"containerChangeable": true,
-							"left": 1536,
-							"top": 656,
+							"left": 1456,
+							"top": 640,
 							"width": 241.15625,
 							"height": 40,
 							"nameCompartment": {
